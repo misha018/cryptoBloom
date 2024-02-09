@@ -1,0 +1,39 @@
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+nav {
+  background-color: rgb(21, 18, 18);
+  display: flex;
+  padding: 1rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+
+  .div-naslov {
+    width: 100%;
+    display: flex;
+    justify-content: left;
+  }
+
+  .naslov {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    font-size: 2rem;
+    font-weight: bold;
+    color: gold; 
+    text-indent: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  #logo-nav {
+    width: auto !important;
+    position: absolute;
+    margin-right: 12rem;
+    right: 0;
+  }
+}
